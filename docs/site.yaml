@@ -20,5 +20,5 @@ context:
 publisher:
         github:
             type: hyde.ext.publishers.dvcs.Git
-            path: ../docs
-            url: git@github.com:sam-dixon/ucb-adv-lab/docs
+            path: ../
+            url: git@github.com:sam-dixon/ucb-adv-lab-site/
