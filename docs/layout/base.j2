@@ -7,7 +7,7 @@
     <title>Physics 111B: Advanced Lab</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/media/css/bootstrap.css">
+    <link rel="stylesheet" href="{{ media_url('css/bootstrap.css') }}">
   </head>
 
   <body role="document">
@@ -26,8 +26,8 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/syllabus.html">Syllabus</a></li>
-                    <li><a href="/experiments.html">Experiments</a></li>
+                    <li><a href="{{ content_url('syllabus.html') }}">Syllabus</a></li>
+                    <li><a href="{{ content_url('experiments.html')}}">Experiments</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -37,8 +37,10 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-            <h2>UC Berkeley Advanced Experimentation Lab</h2>
-<p>This is a prototype of a revamped webpage for the UC Berkeley Physics Advanced Experimentation Lab (PHYS 111B).</p>      </div>
+            {% filter markdown -%}
+            {% block content %}{% endblock %}
+            {%- endfilter %}
+      </div>
 
     </div> <!-- /container -->
 
@@ -46,6 +48,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/media/js/bootstrap.js"></script>
+    <script src="{{ media_url('js/bootstrap.js') }}"></script>
   </body>
 </html>
+

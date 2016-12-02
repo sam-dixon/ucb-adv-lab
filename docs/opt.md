@@ -1,0 +1,11 @@
+Title: OPT: Optical Pumping
+Date: 2016-12-01 14:21
+Category: Experiment
+
+# OPT: Optical Pumping
+
+[Lab writeup and instructions](https://github.com/sam-dixon/ucb-adv-lab/raw/master/experiments/OPT_Optical_Pumping/OPT_Writeup.pdf)
+
+[Prelab](https://github.com/sam-dixon/ucb-adv-lab/raw/master/experiments/OPT_Optical_Pumping/OPT_Prelab.pdf)
+
+[Checkpoint sign-off sheet](https://github.com/sam-dixon/ucb-adv-lab/raw/master/experiments/OPT_Optical_Pumping/OPT_Checkpoints.pdf)
