@@ -1,0 +1,6 @@
+!!python/unicode 'experiments.html': [base.j2]
+!!python/unicode 'index.html': [base.j2]
+!!python/unicode 'media/css/bootstrap.css': []
+!!python/unicode 'media/js/bootstrap.js': []
+!!python/unicode 'opt.html': [base.j2]
+!!python/unicode 'syllabus.html': [base.j2]

@@ -1,0 +1,24 @@
+mode: learning
+media_root: media
+media_url: /ucb-adv-lab/media
+base_url: /ucb-adv-lab/
+# If your site is nested inside of a bigger one, you can use media_url and
+# base_url to properly generate links on your site. For example, if your URL
+# will be some.domain.com/starter/, use:
+#   media_url: /starter/media
+#   base_url: /starter/
+template: hyde.ext.templates.jinja.Jinja2Template
+plugins:
+    - hyde.ext.plugins.meta.MetaPlugin
+    - hyde.ext.plugins.meta.AutoExtendPlugin
+context:
+    data:
+        author:
+            name: Sam Dixon
+            url: "https://github.com/sam-dixon"
+
+publisher:
+        github:
+            type: hyde.ext.publishers.dvcs.Git
+            path: ../docs
+            url: git@github.com:sam-dixon/ucb-adv-lab/docs
